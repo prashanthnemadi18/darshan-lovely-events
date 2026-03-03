@@ -1,0 +1,91 @@
+
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                    DARSHAN LOVELY EVENTS - DEPLOYMENT                     ║
+╚═══════════════════════════════════════════════════════════════════════════╝
+
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         YOUR LOCAL COMPUTER                             │
+│                                                                         │
+│  ┌──────────────────┐         ┌──────────────────┐                    │
+│  │   Frontend       │         │    Backend       │                    │
+│  │   (React)        │         │   (FastAPI)      │                    │
+│  │   Port: 3000     │         │   Port: 8000     │                    │
+│  └──────────────────┘         └──────────────────┘                    │
+│           │                            │                               │
+│           └────────────┬───────────────┘                               │
+└────────────────────────┼───────────────────────────────────────────────┘
+                         │
+                         ▼
+                  ┌─────────────┐
+                  │   GITHUB    │  ← Push your code here
+                  │  (Storage)  │
+                  └─────────────┘
+                         │
+            ┌────────────┴────────────┐
+            │                         │
+            ▼                         ▼
+    ┌──────────────┐          ┌──────────────┐
+    │   VERCEL     │          │   RENDER     │
+    │  (Frontend)  │◄────────►│  (Backend)   │
+    │              │   API    │              │
+    │   FREE ✅    │  Calls   │   FREE ✅    │
+    └──────────────┘          └──────────────┘
+            │                         │
+            │                         │
+            │                         ▼
+            │                  ┌──────────────┐
+            │                  │ MONGODB      │
+            │                  │ ATLAS        │
+            │                  │ (Database)   │
+            │                  │  FREE ✅     │
+            │                  └──────────────┘
+            │
+            ▼
+    ┌──────────────────────────────────┐
+    │  YOUR LIVE WEBSITE               │
+    │  https://your-app.vercel.app     │
+    │                                  │
+    │  Users can access from anywhere! │
+    └──────────────────────────────────┘
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+WHY SEPARATE HOSTING?
+
+Frontend (Vercel):
+  ✓ Optimized for React/Static files
+  ✓ Global CDN (Fast worldwide)
+  ✓ Automatic HTTPS
+  ✓ Free unlimited bandwidth
+
+Backend (Render):
+  ✓ Optimized for Python/APIs
+  ✓ Easy environment variables
+  ✓ Automatic deployments
+  ✓ Free 750 hours/month
+
+They work together but are hosted separately for better performance!
+
+═══════════════════════════════════════════════════════════════════════════
+
+DEPLOYMENT FLOW:
+
+1. You write code on your computer
+2. Push code to GitHub
+3. Vercel automatically deploys frontend
+4. Render automatically deploys backend
+5. Both connect to MongoDB Atlas
+6. Your app is LIVE! 🎉
+
+═══════════════════════════════════════════════════════════════════════════
+
+COST BREAKDOWN:
+
+Vercel:    $0/month (Free tier)
+Render:    $0/month (Free tier)
+MongoDB:   $0/month (Free tier)
+─────────────────────────────────
+TOTAL:     $0/month ✅
+
+═══════════════════════════════════════════════════════════════════════════
